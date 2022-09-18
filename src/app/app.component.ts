@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practise';
+  currentvalue=1;
+  mayvar=[1];
+  expand(){
+    this.currentvalue++;
+    this.mayvar.push(this.currentvalue);
+  }
 }
